@@ -1,0 +1,27 @@
+{
+  "name": "cyclejs-expr",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "cycle-scripts": "2.1.0"
+  },
+  "dependencies": {
+    "@cycle/collection": "0.6.0",
+    "@cycle/dom": "20.1.0",
+    "@cycle/run": "4.0.0",
+    "@cycle/storage": "5.0.3",
+    "mathjs": "3.17.0",
+    "ramda": "0.25.0",
+    "xstream": "11.0.0"
+  },
+  "scripts": {
+    "start": "cycle-scripts start",
+    "test": "cycle-scripts test",
+    "build": "cycle-scripts build",
+    "eject": "cycle-scripts eject"
+  },
+  "cca": {
+    "language": "javascript",
+    "streamLib": "xstream"
+  }
+}
